@@ -21,7 +21,7 @@ module.exports = function(prompts, callback) {
   }, this);
 
   if (filteredPrompts.length) {
-    this.prompt(filteredPrompts, function(mergeProps) {
+    this.prompt(filteredPrompts).then(function(mergeProps) {
       // Merge mergeProps into props/
       _.assign(props, mergeProps);
       callback && callback(props);
