@@ -1,6 +1,6 @@
 {
-  "name": "yeoman-option-or-prompt",
-  "version": "1.0.2",
+  "name": "yeoman-merge-prompt",
+  "version": "0.0.1",
   "description": "Provides a helper for yeoman generators that wraps the prompt method with code that will exclude any prompts for data that has been supplied via options.",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/artefact-group/yeoman-option-or-prompt.git"
+    "url": "git+https://github.com/jvpsousa/yeoman-option-or-prompt.git"
   },
-  "author": "Sam Baker",
+  "author": "Sam Baker, Jão Vitor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/artefact-group/yeoman-option-or-prompt/issues"
+    "url": "https://github.com/jvpsousa/yeoman-option-or-prompt/issues"
   },
-  "homepage": "https://github.com/artefact-group/yeoman-option-or-prompt#readme",
+  "homepage": "https://github.com/jvpsousa/yeoman-option-or-prompt#readme",
   "dependencies": {
     "lodash": "^3.9.3"
   }
